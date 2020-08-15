@@ -11,4 +11,8 @@
     <p>A second-hand marketplace for designer work shoes.</p>
     <h2>Start Listing</h2>
     <p>Sign-up to sell your shoes immediately and reach millions of buyers.</p>
+
+    {% for shoe in shoe_list %}
+    <li>{{ shoe.name }}</li>
+    {% endfor %}
 {% endblock content %}

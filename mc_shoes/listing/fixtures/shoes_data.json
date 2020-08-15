@@ -1,0 +1,22 @@
+[
+    {
+      "model": "listing.shoe",
+      "pk": 1,
+      "fields": {
+        "name": "Vintage City Brown",
+        "brand": "Lennon",
+        "size": 4,
+        "photo": "/media/shoe_brown.png"
+      }
+    },
+    {
+      "model": "listing.shoe",
+      "pk": 2,
+      "fields": {
+        "name": "Old School Black",
+        "brand": "Gucci",
+        "size": 8,
+        "photo": "/media/shoe_black.png"
+      }
+    }
+  ]

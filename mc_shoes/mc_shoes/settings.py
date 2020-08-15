@@ -119,3 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDiA_ROOT = '/Users/markmc/Repos/mc-shoes/mc_shoes/listing/fixtures'
