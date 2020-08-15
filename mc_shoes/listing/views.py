@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the MC Shoes index.")
+    title = "MC Shoes"
+    return render(request, 'listing/listing_base.html', {'title': title})
