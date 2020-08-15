@@ -8,10 +8,25 @@
             {% endblock title %}
         </title>
     </head>
-    
+
+    <header id="header">
+        {% block header %}
+        <p>Replace with page header.</p>
+        {% endblock header %}
+    </header>
+
     <body>
-        {% block content %}
-        <p>Placeholder text in base template. Replace with page content.</p>
-        {% endblock content %}
+        <div id="main">
+            {% block content %}
+            <p>Replace with page content.</p>
+            {% endblock content %}
+        </div>
     </body>
+
+    <footer id="footer">Copyright &copy;
+        <script type="text/JavaScript">
+            document.write(new Date().getFullYear());
+        </script> MC Shoes
+    </footer>
+
 </html>
